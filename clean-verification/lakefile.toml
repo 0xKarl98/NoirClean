@@ -1,0 +1,10 @@
+name = "my-noir-verification"
+version = "0.1.0"
+defaultTargets = ["my-noir-verification"]
+
+[[lean_lib]]
+name = "MyNoirVerification"
+
+[[lean_exe]]
+name = "my-noir-verification"
+root = "Main"
